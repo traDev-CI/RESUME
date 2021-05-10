@@ -15,7 +15,7 @@ _You only need to clone this repo from the main branch._
 
 ## Autores ✒️
 
-* **Alfredo Rivas Jimenez** - *Trabajo Inicial* - [villanuevand](https://github.com/traDev-CI)
+* **Alfredo Rivas Jimenez** - *Trabajo Inicial* - [traDev-CI](https://github.com/traDev-CI)
 
 ## Expresiones de Gratitud 🎁
 
