@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg_header{
+    background-color: rgb(29, 27, 54);
+    display: flex;
+    justify-content: space-between;
+}
+.info_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info_header img{
+    width: 250px;
+}
+.text_white{
+    text-align: center;
+    color: #fff;
+}
+
+.nav_menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.nav_menu li{
+    flex: 1;
+    width: 100px;
+    height: 40px;
+    transition: all .5s ease;
+}
+.nav_menu li:hover{
+    flex: 1.1;
+    transition: all .5s ease;
+    background: #332b77;
+    cursor: pointer;
+}
+.nav_menu a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .toggle-button{
+        display: flex;
+    }
+    .nav_menu {
+        display: none;
+    }
+}
