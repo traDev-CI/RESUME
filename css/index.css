@@ -309,6 +309,12 @@ body{
     justify-content: center; 
 }
 
+.skill{
+    padding: 10px 0;
+    border: 1px solid #fff;
+
+}
+
 .skill figure{
     display: flex;
     justify-content: center;
