@@ -22,14 +22,14 @@
                                 <img src="./assets/BlackSign_white_transparency+.png" tabindex="0" alt="a logo of a cv">
                             </figure>
                         </div>
-                        <ul class="nav-links" id="close_nav">
-                            <li class="nav-items" tabindex="1"><a href="#about_me">About me</a></li>
-                            <li class="nav-items" tabindex="2"><a href="#skills">Skills</a></li>
-                            <li class="nav-items" tabindex="3"><a href="#experience">Experience</a></li>
-                            <li class="nav-items" tabindex="4"><a href="#education">Education</a></li>
-                            <li class="nav-items" tabindex="5"><a href="#contact">Contact</a></li>
+                        <ul class="nav-links" id="close_nav" >
+                            <li class="nav-items" tabindex="-1"><a href="#about_me" tabindex="0">About me</a></li>
+                            <li class="nav-items" tabindex="-1"><a href="#skills" tabindex="1">Skills</a></li>
+                            <li class="nav-items" tabindex="0"><a href="#experience" tabindex="2">Experience</a></li>
+                            <li class="nav-items" tabindex="-1"><a href="#education" tabindex="3">Education</a></li>
+                            <li class="nav-items" tabindex="-1"><a href="#contact" tabindex="4">Contact</a></li>
                         </ul>
-                        <div class="burger">
+                        <div class="burger" aria-expanded="false">
                             <div class="line1"></div>
                             <div class="line2"></div>
                             <div class="line3"></div>
@@ -43,20 +43,20 @@
         <section class="bg-B">
             <article role="doc-introduction">
                 <div class="container_aboutMe">
-                    <div id="about_me" class="about_me">
+                    <div id="about_me" class="about_me" style="padding: 150px 0;">
                         <h2>Hello</h2>
                         <h3>Here's who I am & what I do</h3>
                         <p>I am a web developer with two years and seven months of experience where I participated in the creation of a storage application, product monitoring and another occasion in which I participated was to be able to make the SAFe DevOps Health Radar methodology through an application in a more controlled way and comfortable for users. All this is due to my preparation and my way of learning on my own the technologies that are presented to me.
                         </p>
                     </div>
-                    <div class="grid_card">
+                    <div class="grid_card" style="padding-top: 150px;">
                         <card-profile />
                     </div>
                 </div>
             </article>
         </section>
         <section id="skills" class="bg_skills">
-            <article role="document">
+            <article role="document" style="padding: 150px 0;">
                 <div class="title_skills">
                     <h2>Skills</h2>
                 </div>
@@ -66,7 +66,7 @@
             </article>
         </section>   
         <section id="experience">
-            <article role="presentation">
+            <article role="presentation" style="padding: 150px 0;">
                 <div class="exp_title">
                     <h1>Experience</h1>
                 </div>
@@ -74,14 +74,14 @@
             </article>
         </section>
         <section id="education">
-            <article role="note" class="bg-edu">
+            <article role="note" class="bg-edu" style="padding: 150px 0;">
                 <div class="title_cont">
                     <h1>Education</h1>
                 </div>
                 <div class="" id="grid-edu"></div>
             </article>
         </section>
-        <section id="contact">
+        <section id="contact" style="padding: 150px 0;">
             <card-education />
         </section>
 
@@ -89,18 +89,35 @@
     <footer class="social-footer">
             <div role="group">
                 <div class="nav-footer">
-                    <div class="social-footer__left">
-                        <h4>332 570 6221</h4>
-                        <h4>alfredo_rivas_jimenez@outlook.com</h4>
+                    <div class="title__keep">
+                        <div>
+                            <h1>Keep in touch with me</h1>
+                        </div>
+                        <div class="social-footer__left">
+                            <div class="phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <h4>332 570 6221</h4>
+                            </div>
+                           <div class="email">
+                                <i class="far fa-envelope"></i>
+                                <h4>alfredo_rivas_jimenez@outlook.com</h4>
+                           </div>
+                        </div>
                     </div>
+                   
                     <div class="fit__social">
-                        <ul class="nav-links__social title__social">
-                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a></li>
-                            <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                        </ul>
+                        <div>
+                            <h1>Social media</h1>
+                        </div>
+                        <div>
+                            <ul class="nav-links__social title__social">
+                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                                <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
